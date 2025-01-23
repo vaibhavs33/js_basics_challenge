@@ -40,3 +40,12 @@ let welcomeMessage = "Welcome, " + customerName + "! Thank you for choosing our 
 
 //Logging the welcome message to the console
 console.log(welcomeMessage);
+
+//Task 5 - Access Control
+//Declaring variable isLoggedIn with a boolean value about the login status
+let isLoggedIn = true;
+if (isLoggedIn) {
+    console.log("Access granted");
+} else {
+    console.log("Please try again.");
+}
