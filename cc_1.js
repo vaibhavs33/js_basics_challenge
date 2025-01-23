@@ -31,3 +31,12 @@ console.log("Account balance after multiplying is:", accountBalance);
 
 accountBalance /= 4; //Dividing by 4
 console.log("Account balance after dividing is:", accountBalance); 
+
+//Task 4 - Customer Messaging
+let customerName = "Hugo Cooper"; //Declaring a variable for the customer's name
+
+//Personalized welcome message by concatenating strings
+let welcomeMessage = "Welcome, " + customerName + "! Thank you for choosing our service.";
+
+//Logging the welcome message to the console
+console.log(welcomeMessage);
